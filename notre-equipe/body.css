@@ -12,6 +12,23 @@ header {
     padding: 20px;
 }
 
+header a {
+    text-align: right;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    margin: 2%;
+    padding: 1%;
+    width: 10%;
+    padding-right: 70%;
+}
+
 h1 {
     margin: 0;
 }
@@ -28,10 +45,23 @@ a {
     padding: 20px;
 }
 
-.logo {
-    width: 1000px;
+.person {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
     text-align: center;
-    align-self: center;
+}
+
+.person img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.logo {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
 }
 
 .logo img {
@@ -44,9 +74,13 @@ a {
     
 }
 
-.redirect {
+.presentation {
     text-align: center;
-    margin: 20px;
-    padding: 20px;
+}
 
+
+.presentation h2 {
+    color: #fff;
+    padding-left: 20%;
+    padding-right: 20%;
 }
