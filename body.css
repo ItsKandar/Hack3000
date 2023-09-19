@@ -1,15 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: grey;
     margin: 0;
     padding: 0;
 }
 
-header {
+header, footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+footer img {
+    margin: 25px;
+    padding: 5px;
+    width: 75px;
 }
 
 h1 {
@@ -48,6 +54,16 @@ h1 {
     text-align: center;
 }
 
+.presentation {
+    text-align: center;
+}
+
+.presentation h2 {
+    border-radius: 5px;
+    background-color: #fff;
+}
+
 .logo img {
     max-width: 100%;
 }
+
